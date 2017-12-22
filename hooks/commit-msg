@@ -1,6 +1,6 @@
 #!/bin/bash
 
 if ! grep -iqE "fix" "$1"; then
-    echo "The commit message need work 'fix' in it" >&2
+    echo "The commit message need word 'fix' in it" >&2
     exit 1
 fi
